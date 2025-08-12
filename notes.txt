@@ -1,0 +1,7 @@
+1. Install typescript, ts-node, @types/node
+2. Create tsconfig.json via npx tsc --init
+3. Create index.ts
+4. Run ts-node index.ts
+5. Create nodemon.json
+6. Create server in Server.ts
+8. Create index.ts

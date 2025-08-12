@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="2.511">
+  <testsuite name="Server class (unit)" errors="0" failures="0" skipped="2" timestamp="2025-08-11T17:30:08" time="1.157" tests="2">
+    <testcase classname="Server class (unit) should bootstrap with CORS, Helmet, and routes" name="Server class (unit) should bootstrap with CORS, Helmet, and routes" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Server class (unit) should call listen with the given port" name="Server class (unit) should call listen with the given port" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="Url Service Module Test cases" errors="0" failures="0" skipped="0" timestamp="2025-08-11T17:30:09" time="0.61" tests="2">
+    <testcase classname="Url Service Module Test cases Checks that URL service is defined" name="Url Service Module Test cases Checks that URL service is defined" time="0.002">
+    </testcase>
+    <testcase classname="Url Service Module Test cases Tests encoder function" name="Url Service Module Test cases Tests encoder function" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="UrlController" errors="0" failures="0" skipped="0" timestamp="2025-08-11T17:30:10" time="0.32" tests="3">
+    <testcase classname="UrlController get should return 200 and url data" name="UrlController get should return 200 and url data" time="0.019">
+    </testcase>
+    <testcase classname="UrlController get should call next on error" name="UrlController get should call next on error" time="0.001">
+    </testcase>
+    <testcase classname="UrlController create should return 200 and url in json" name="UrlController create should return 200 and url in json" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
